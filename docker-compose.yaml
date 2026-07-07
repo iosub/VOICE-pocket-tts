@@ -2,7 +2,7 @@ services:
   pocket-tts:
     build: .
     ports:
-      - "8000:8000"
+      - "8069:8000"
     volumes:
       - pocket_tts_cache:/root/.cache/pocket_tts
       - hf_cache:/root/.cache/huggingface

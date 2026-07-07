@@ -77,8 +77,8 @@ target/
 /weights
 test_en_audio_4000.model
 profile_output*
-*.safetensors
-*.wav
+
+
 *.model
 *.pt
 
@@ -86,6 +86,6 @@ profile_output*
 CLAUDE.md
 QWEN.md
 .claude/
-voices
+
 
 italk.yaml
